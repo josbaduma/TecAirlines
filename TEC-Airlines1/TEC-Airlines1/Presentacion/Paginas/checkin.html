@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Check-in | TEC-Airlines</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="../css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="../css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+
+<script type="text/javascript" src="../../Controladores/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="../../Controladores/cufon-yui.js"></script>
+<script type="text/javascript" src="../../Controladores/cufon-replace.js"></script>
+<script type="text/javascript" src="../../Controladores/Cabin_400.font.js"></script>
+<script type="text/javascript" src="../../Controladores/tabs.js"></script>
+<script type="text/javascript" src="../../Controladores/jquery.jqtransform.js" ></script>
+<script type="text/javascript" src="../../Controladores/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="../../Controladores/atooltip.jquery.js"></script>
+<script type="text/javascript" src="../../Controladores/script.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.main, .tabs ul.nav a, .content, .button1, .box1, .top { behavior:url("../js/PIE.htc")}</style>
+<![endif]-->
+</head>
+<body id="page1">
+<div class="main">
+  <!--header -->
+  <header>
+    <div class="wrapper">
+      <h1><a href="index.html" id="logo">TEC-Airlines</a></h1>
+      <nav id="top_nav">
+        <ul>
+          <li><a href="index.html" class="nav1">Inicio</a></li>
+          <li><a href="contacts.html" class="nav3">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html"><span><span>Inicio</span></span></a></li>
+        <li><a href="offers.html"><span><span>Ofertas</span></span></a></li>
+        <li><a href="book.html"><span><span>Reservaciones</span></span></a></li>
+        <li><a href="services.html"><span><span>Servicios</span></span></a></li>
+        <li class="end"  id="menu_active"><a href="checkin.html"><span><span>Web Check In</span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- / header -->
+  <!--content -->
+  <script>
+    function enviarCheck(codeRes){
+      if (codeRes.value == "E1234") { location.href="file:///C:/Users/aljos_000/Desktop/AirLines%20Free%20Website%20Template%20-%20Free-CSS.com/airlines/asiento.html"
+        return true;}else{
+          alert("número de vuelo incorrecto")
+          return false;
+          }
+        }
+  </script>
+  <section id="content">
+    <br>
+    <article class="content">
+      <h3>Web Check-in<span>Hacé tu Web Check-in / Reimprimí tu tarjeta de embarque y elije tu asiento</span></h3>
+      <div class="wrapper">
+        <p>Desde tu PC/Móvil y desde el lugar donde te encuentres hace tu Web Check In entre las 8 y 24hs previas al horario de partida del vuelo.
+        Imprimí tu tarjeta de embarque y evitá filas en el aeropuerto. Desde aquí podrás también reimprimir tu tarjeta de embarque de Web Check-in.</p>
+      </div>
+      <div class="tab-content" id="Flight">
+              <form id="form_3" action="#" method="post">
+                <div>
+                <div class="row_select">
+                  <article class="cols"><input type="text" class="input" placeholder="Nombre"></article>
+                  <article class="cols"><input type="text" class="input" placeholder="Apellido"></article>
+                  <article class="cols"><input id="codeRes" type="text" class="input" placeholder="Codigo de Reserva"></article>
+              </form>
+          </div><br>
+          <a href="#" class="button1" onclick="return enviarCheck(codeRes)"><strong>Aceptar</strong></a></span><br><br>
+      </article>
+  </section>
+  <!--content end-->
+  <!--footer -->
+  <footer>
+    <div class="links">Copyright &copy; <a href="#">M3JI</a> Todos los Derechos reservados<br>
+        Diseñado por: José Badilla, José Guillén, José María Valenciano, Irene Muñoz</div>
+  </footer>
+</div>
+
+</body>
+<script type="text/javascript">
+  jQuery(document).ready(function ($) {
+    $('#form_1, #form_2, #form_3').jqTransform({
+        imgPath: 'jqtransformplugin/img/'
+    });
+});
+</script>
+</html>
