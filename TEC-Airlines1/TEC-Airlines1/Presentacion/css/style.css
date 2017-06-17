@@ -1535,14 +1535,14 @@ ol {
   opacity: 0;
 }
 .seat input[type=checkbox]:checked + label {
-  background: #bada55;
+  background: #c1272d;
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
   animation-duration: 300ms;
   animation-fill-mode: both;
 }
 .seat input[type=checkbox]:disabled + label {
-  background: #dddddd;
+  background: #000000;
   text-indent: -9999px;
   overflow: hidden;
 }
@@ -1565,9 +1565,10 @@ ol {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
+  color:#FFFFFF;
   line-height: 1.5rem;
   padding: 4px 0;
-  background: #F42536;
+  background: #00457c;
   border-radius: 5px;
   animation-duration: 300ms;
   animation-fill-mode: both;
@@ -1585,7 +1586,7 @@ ol {
 }
 .seat label:hover {
   cursor: pointer;
-  box-shadow: 0 0 0px 2px #5C6AFF;
+  box-shadow: 0 0 0px 2px #C1272D;
 }
 
 @-webkit-keyframes rubberBand {

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Vuelos>
+	<vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion=""></vuelo>
+	<vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion=""></vuelo>
+	<vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion=""></vuelo>
+	<vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion=""></vuelo>
+	<vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion=""></vuelo>
+	<vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion=""></vuelo>
+</Vuelos>
+
+<Usuarios>
+	<usuario nombre="" apellido1="" apellido2="" carne="" email="" ocupacion="" telefono="" usuario="" contraseña=""></usuario>
+	<usuario nombre="" apellido1="" apellido2="" carne="" email="" ocupacion="" telefono="" usuario="" contraseña=""></usuario>
+	<usuario nombre="" apellido1="" apellido2="" carne="" email="" ocupacion="" telefono="" usuario="" contraseña=""></usuario>
+</Usuarios>
+

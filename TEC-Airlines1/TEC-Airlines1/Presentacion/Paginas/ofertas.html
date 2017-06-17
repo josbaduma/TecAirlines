@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TEC-Airlines</title>
+    <meta charset="utf-8">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/layout.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+    <!--JS-->
+    <script type="text/javascript" src="../../Controladores/jquery-1.5.2.js"></script>
+    <script type="text/javascript" src="../../Controladores/cufon-yui.js"></script>
+    <script type="text/javascript" src="../../Controladores/cufon-replace.js"></script>
+    <script type="text/javascript" src="../../Controladores/Cabin_400.font.js"></script>
+    <script type="text/javascript" src="../../Controladores/tabs.js"></script>
+    <script type="text/javascript" src="../../Controladores/jquery.jqtransform.js"></script>
+    <script type="text/javascript" src="../../Controladores/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript" src="../../Controladores/atooltip.jquery.js"></script>
+    <script type="text/javascript" src="../../Controladores/script.js"></script>
+    <!--JS FUNCTIONS-->
+    <script type="text/javascript" src="../../Controladores/homeControl.js"></script>
+
+</head>
+<body id="page1">
+    <div class="main">
+        <!--header -->
+        <header>
+            <div class="wrapper">
+                <h1><a href="home.html" id="logo">TEC-Airlines</a></h1>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="home.html"><span><span>Inicio</span></span></a></li>
+                    <li id="menu_active"><a href="ofertas.html"><span><span>Ofertas</span></span></a></li>
+                    <li><a href="book.html"><span><span>Reservaciones</span></span></a></li>
+                    <li><a href="checkin.html"><span><span>Check In</span></span></a></li>
+                    <li class="end"><a href="register.html"><span><span>Contacto</span></span></a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- / header -->
+
+            <!--content -->
+            <script>
+    function sololetras(e) {
+      key = e.keyCode ||e.which;
+      teclado = String.fromCharCode(key).toLowerCase();
+      letras = " abcdefghijklmnopqrstuvwxy";
+      especiales = "8-37-38-46-164" //8 esoacio, 37 flecha Izq 38 fecha derecha 46 suprimir 164 ñ
+      teclado_especial = false;
+      for(var i in especiales){
+        if(key == especiales[i]){
+          teclado_especial= true;break;
+        }
+      }
+      if (letras.indexOf(teclado)==-1 && !teclado_especial){
+        return false;
+      }
+    }
+            </script>
+            <script>
+   function verifica(ori, dest, dateO, dateA)
+{
+  if (ori.value == "" && dest.value == "" && dateO.value == "" && dateA.value == "") {
+    alert("Debe completar todos los campos");
+    document.getElementById('ori').style.border = 'thin solid #FF0000';
+    document.getElementById('destiny').style.border = 'thin solid #FF0000';
+    document.getElementById('dateOut').style.border = 'thin solid #FF0000';
+    document.getElementById('dateArrive').style.border = 'thin solid #FF0000';
+    return false;
+  }
+if(ori.value == "")
+{
+alert("El campo Origen está vacio");
+document.getElementById('ori').style.border = 'thin solid #FF0000';
+  return false;
+}
+if(dest.value == "")
+{
+alert("El campo Destino está vacio");
+document.getElementById('destiny').style.border = 'thin solid #FF0000';
+  return false;
+}
+
+else{
+  location.href="listaVuelos.html"
+ return true;
+}
+}
+
+            </script>
+            <section id="content">
+                <div class="wrapper pad1">
+                    <article class="col2">
+                        <h3>Viaje a Amsterdam con nosotros </h3>
+                        <div class="wrapper pad_bot3">
+                            <figure class="left marg_right1"><img src="../images/PromoAmst.png" alt="" width="600" height="200"></figure>
+                            <h4 class="h20">Ahora puedes visitar Ámsterdam con nuestro vuelos semanales, y aprovecha nuestra oferta del 20% de descuento para hacer realidad tus sueños.</h4>
+                        </div>
+
+                        <hr>
+
+                        <h3 class="pad_top1">Tu promo Kölbi</h3>
+                        <div class="wrapper pad_bot3">
+                            <figure class="left marg_right1"><img src="../images/kolbi.png" alt="" width="600" height="200"></figure>
+                            <div class="cols">
+                                <h4 class="link1"><a href="https://www.kolbi.cr/wps/portal/kolbi_dev/personas/telefonos/4g/galaxy_s8#/">Ir a promoción</a></h4>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+            </section>
+            <!--content end-->
+            <!--footer -->
+            <footer>
+
+                <div class="links">
+                    Copyright &copy; <a href="#">M3JI</a> Todos los Derechos reservados<br>
+                    Diseñado por: José Badilla, José Guillén, María José Valenciano, Irene Muñoz
+                </div>
+            </footer>
+            <!--footer end-->
+        </div>
+        <script type="text/javascript">Cufon.now();</script>
+        <script type="text/javascript">
+jQuery(document).ready(function ($) {
+    $('#form_4').jqTransform({
+        imgPath: 'jqtransformplugin/img/'
+    });
+});
+        </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Vuelos>
+    <vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion="" estado="" />
+    <vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion="" estado="" />
+    <vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion="" estado="" />
+    <vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion="" estado="" />
+    <vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion="" estado="" />
+    <vuelo origen="" llegada="" escalado="" fSalida="" hSalida="" hEstimadaLlegada="" clase="" precio="" modeloAvion="" estado="" />
+    <vuelo origen="SJO" llegada="Amsterdam" escalado="false" fSalida="06/07/2017" hSalida="19:00" hEstimadaLlegada="1:00" clase="economica" precio="$600" modeloAvion="AirBus A380" estado="Nuevo" />
+  </Vuelos>
+  <Usuarios>
+    <usuario nombre="" apellido1="" apellido2="" carne="" email="" ocupacion="" telefono="" usuario="" contraseña="" />
+    <usuario nombre="" apellido1="" apellido2="" carne="" email="" ocupacion="" telefono="" usuario="" contraseña="" />
+    <usuario nombre="" apellido1="" apellido2="" carne="" email="" ocupacion="" telefono="" usuario="" contraseña="" />
+    <usuario nombre="Jose" apellido1="Badilla" apellido2="Umaña" carne="201271708" email="josebaduma@gmail.com" ocupacion="estudiante" telefono="86481845" usuario="josbad" contraseña="1234abc" />
+  </Usuarios>
+  <Promociones>
+    <promocion nombre="" enlace="" imagen="" />
+    <promocion nombre="" enlace="" imagen="" />
+    <promocion nombre="" enlace="" imagen="" />
+    <promocion nombre="" enlace="" imagen="" />
+    <promocion nombre="Kolbi" enlace="kolbi.cr" imagen="xxxxxxx" />
+  </Promociones>
+</root>
